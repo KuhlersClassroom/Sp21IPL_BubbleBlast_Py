@@ -3,10 +3,10 @@ HEIGHT = 500
 WIDTH = 800
 window = Tk()
 window.title('Bubble Blaster')
-c = Canvas(window, width=WIDTH, height=HEIGHT, bg= 'darkblue')
+c = Canvas(window, width=WIDTH, height=HEIGHT, bg= 'pink')
 c.pack()
-ship_id = c.create_polygon (5,5,5,35,40,25, fill = 'red')
-ship_id2 = c.create_oval (0,0,30,30, outline = 'red')
+ship_id = c.create_polygon (5,5,5,35,40,25, fill = 'white')
+ship_id2 = c.create_oval (0,0,30,30, outline = 'white')
 SHIP_R = 15
 MID_X = WIDTH / 2
 MID_Y = HEIGHT / 2
